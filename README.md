@@ -1,6 +1,7 @@
 ## Welcome to GitHub Pages
-<a >little girl
-<link href="./LinearRegreesion.pdf">
+<a href="LinearRegreesion.pdf">
+little girl
+<br>
 </a>
 You can use the [editor on GitHub](https://github.com/Ye980226/Ye980226.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
