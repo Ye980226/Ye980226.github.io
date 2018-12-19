@@ -1,4 +1,4 @@
 <a href="LinearRegreesion.pdf">
-Linear Regression
+Linear Regression 
 <br>
 </a>
