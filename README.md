@@ -1,4 +1,4 @@
-<a href="Machine Learning1.pdf">
+<a href="LogisticRegression.pdf">
 Machine Learning
 <br>
 </a>
