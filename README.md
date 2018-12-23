@@ -1,4 +1,4 @@
-<a href="DicisionTree.pdf">
+<a href="DecisionTree.pdf">
 Machine Learning
 <br>
 </a>
