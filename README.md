@@ -9,6 +9,6 @@ python入门
 </a>
 
 <a href="Random_forest.html">
-高级算法梳理
+高级算法
 <br>
 </a>
