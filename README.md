@@ -7,3 +7,8 @@ Machine Learning
 python入门
 <br>
 </a>
+
+<a href="Random_forest.html">
+高级算法梳理
+<br>
+</a>
