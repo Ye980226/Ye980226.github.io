@@ -9,6 +9,11 @@ python入门
 </a>
 
 <a href="Random_forest.html">
-高级算法梳理
+随机森林
+<br>
+</a>
+
+<a href="GBDT.html">
+GBDT
 <br>
 </a>
