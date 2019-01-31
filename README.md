@@ -17,3 +17,8 @@ python入门
 GBDT
 <br>
 </a>
+
+<a href="XGB.html">
+XGB
+<br>
+</a>
