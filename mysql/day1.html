@@ -41,8 +41,7 @@
 <p>　　A database is a structured collection of data. It may be anything from a simple shopping list to a picture gallery or the vast amounts of information in a corporate network. To add, access, and process data stored in a computer database, you need a database management system such as MySQL Server. Since computers are very good at handling large amounts of data, database management systems play a central role in computing, as standalone utilities, or as parts of other applications. </p>
 <p>　　A relational database stores data in separate tables rather than putting all the data in one big storeroom. The database structures are organized into physical files optimized for speed. The logical model, with objects such as databases, tables, views, rows, and columns, offers a flexible programming environment. You set up rules governing the relationships between different data fields, such as one-to-one, one-to-many, unique, required or optional, and “pointers” between different tables. The database enforces these rules, so that with a well-designed database, your application never sees inconsistent, duplicate, orphan, out-of-date, or missing data. (摘自官方文档)</p>
 2. 数据表
-```C
-/**
+<pre><code class="language-c"><div><span class="hljs-comment">/**
   Prepares a dd::Table object from mysql_prepare_create_table() output
   and return it to the caller.
   @param thd                Thread handle
@@ -58,15 +57,15 @@
   @param fk_keys            Number of foreign keys.
   @param file               handler instance for the table.
   @returns Constructed dd::Table object, or nullptr in case of an error.
-*/
-std::unique_ptr<dd::Table> create_table(
-    THD *thd, const dd::Schema &sch_obj, const dd::String_type &table_name,
-    HA_CREATE_INFO *create_info, const List<Create_field> &create_fields,
-    const KEY *keyinfo, uint keys,
+*/</span>
+<span class="hljs-built_in">std</span>::<span class="hljs-built_in">unique_ptr</span>&lt;dd::Table&gt; create_table(
+    THD *thd, <span class="hljs-keyword">const</span> dd::Schema &amp;sch_obj, <span class="hljs-keyword">const</span> dd::String_type &amp;table_name,
+    HA_CREATE_INFO *create_info, <span class="hljs-keyword">const</span> List&lt;Create_field&gt; &amp;create_fields,
+    <span class="hljs-keyword">const</span> KEY *keyinfo, uint keys,
     Alter_info::enum_enable_or_disable keys_onoff,
-const FOREIGN_KEY *fk_keyinfo, uint fk_keys, handler *file);
-```
-线程句柄，schema对象，数据表的名字，创建的信息，创建的fields(字段名+类型名)，索引信息，索引个数，索引开关，外键信息，外键个数，table的句柄信息，返回一个dd::Table对象。
+<span class="hljs-keyword">const</span> FOREIGN_KEY *fk_keyinfo, uint fk_keys, handler *file);
+</div></code></pre>
+<p>线程句柄，schema对象，数据表的名字，创建的信息，创建的fields(字段名+类型名)，索引信息，索引个数，索引开关，外键信息，外键个数，table的句柄信息，返回一个dd::Table对象。</p>
 <ol start="3">
 <li>视图</li>
 </ol>

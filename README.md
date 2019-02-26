@@ -29,7 +29,7 @@ XGB
 <br>
 </a>
 
-<a href="Datawhale_mysql_day1.html">
+<a href="mysql/day1.html">
 mysql第一天
 <br>
 </a>
