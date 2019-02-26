@@ -28,3 +28,8 @@ XGB
 英语单词
 <br>
 </a>
+
+<a href="Datawhale_mysql_day1.html">
+mysql第一天
+<br>
+</a>
